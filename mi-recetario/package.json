@@ -7,8 +7,11 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "oxlint",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
+  "homepage": "https://tu-usuario.github.io/mi-recetario",
   "dependencies": {
     "react": "^19.3.1",
     "react-dom": "^19.3.1"
